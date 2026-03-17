@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 
-data = pd.read_csv("CSV/Salary_dataset.csv")
+data = pd.read_csv("practice_data/Salary_dataset.csv")
 x = np.array(data.YearsExperience) 
 y = np.array(data.Salary)
 
